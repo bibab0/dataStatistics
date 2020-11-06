@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #content {
+            overflow: auto
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <table style="width:4000px">
+            <tr>
+                <td>s</td>
+                <td>s</td>
+                <td>s</td>
+                <td>s</td>
+            </tr>
+            <tr>
+                <td>s</td>
+                <td>s</td>
+                <td>s</td>
+            </tr>
+            <tr>
+                <td>s</td>
+                <td>s</td>
+                <td>s</td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+<script>
+    var con = document.getElementById('content')
+    var conTable = con.getElementsByTagName('table')[0]
+    con.style.width = conTable.style.width
+</script>
+
+</html>
